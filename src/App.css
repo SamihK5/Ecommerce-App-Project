@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.body {
+  background-color: black;
+  color:aliceblue;
+  height: 100%;
+  width: 100%;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.webname {
+  color:aliceblue;
+  font-size: 45px;
+}
+
+.header {
+  position: sticky;
+  background-color: black;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+}
+
+.theme {
+  padding-right: 10px;
+}
+
+.main {
+ color:aliceblue;
+ border-top: 1px solid aliceblue;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.man-image {
+  align-items: end;
+}
+
+.curling-man {
+  height: 600px;
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.woman-image {
+  align-items:start;
+}
+
+.woman-curling {
+  height: 600px;
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.slogan {
+  text-align: center;
+  font-size: 30px;
+}
